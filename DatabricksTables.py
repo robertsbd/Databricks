@@ -35,7 +35,7 @@ df_all_tables = spark.createDataFrame(data=all_tables,schema=columns)
 
 # COMMAND ----------
 
-# Create a count of the number of tables by created date. Needs to be generalised so it will do this for all the databases. This will just require an iteration across all databases
+# Create a count of the number of tables by created date.
 
 DATE_TBL = DATABASE.TABLE # <-- Name of your date table
 
